@@ -1,0 +1,51 @@
+:root {
+  --btn-border-radius: 10px;
+}
+
+body {
+  padding: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.677);
+}
+.links-homepage {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-about,
+.btn-contact {
+  border: 1px solid rgb(133, 40, 214);
+  background: rgb(133, 40, 214);
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: var(--btn-border-radius);
+  margin: 30px;
+}
+
+.btn-about:hover,
+.btn-contact:hover {
+  background: white;
+  color: rgb(133, 40, 214);
+  transition: 0.2s;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.p-1,
+.p-2 {
+  padding: 0.5rem !important;
+  background: rgba(133, 40, 214, 0.095);
+  border-radius: 6px;
+  margin: 30px;
+}
