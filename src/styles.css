@@ -1,6 +1,6 @@
 :root {
   --btn-border-radius: 10px;
-    --primary-color: rgb(133, 40, 214);
+  --primary-color: rgb(133, 40, 214);
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -92,4 +92,19 @@ h2 {
   margin: 30px;
 }
 
-
+@media (max-width: 768px) {
+  .project-img {
+    display: none;
+  }
+  body {
+    padding: 30px;
+    padding-top: 100px;
+  }
+  .btn-about,
+  .btn-contact {
+    margin: 15px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
