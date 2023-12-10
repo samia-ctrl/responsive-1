@@ -1,5 +1,8 @@
 :root {
   --btn-border-radius: 10px;
+    --primary-color: rgb(133, 40, 214);
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -14,6 +17,35 @@ h1 {
 h2 {
   color: rgba(0, 0, 0, 0.677);
 }
+
+.primary-link {
+  border-radius: var(--btn-border-radius);
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
 .links-on-homepage {
   display: flex;
   justify-content: center;
@@ -55,10 +87,9 @@ h2 {
   justify-content: space-evenly;
 }
 
-.p-1,
-.p-2 {
+.p-1 {
   padding: 0.5rem !important;
-  background: rgba(133, 40, 214, 0.095);
-  border-radius: 6px;
   margin: 30px;
 }
+
+
