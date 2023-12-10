@@ -14,11 +14,24 @@ h1 {
 h2 {
   color: rgba(0, 0, 0, 0.677);
 }
-.links-homepage {
+.links-on-homepage {
   display: flex;
   justify-content: center;
 }
 
+.link-to-homepage {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid rgba(33, 40, 214, 0.095);
+  border-radius: var(--btn-border-radius);
+  padding: 10px;
+}
+
+.link-to-homepage a {
+  text-decoration: none;
+  color: rgba(28, 28, 28, 0.879);
+  margin: 15px;
+}
 .btn-about,
 .btn-contact {
   border: 1px solid rgb(133, 40, 214);
